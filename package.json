@@ -1,0 +1,36 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.3.3",
+    "@types/react-scroll": "^1.8.10",
+    "animejs": "^3.2.2",
+    "emailjs": "^4.0.3",
+    "framer-motion": "^11.0.23",
+    "gsap": "^3.12.5",
+    "next": "14.1.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-responsive-carousel": "^3.2.23",
+    "react-scroll": "^1.9.0",
+    "react-spinners": "^0.13.8",
+    "react-toastify": "^10.0.5",
+    "sass": "^1.72.0"
+  },
+  "devDependencies": {
+    "@types/animejs": "^3.1.12",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4",
+    "typescript": "^5"
+  }
+}
