@@ -113,6 +113,10 @@
     color: rgb(85, 165, 231);
 }
 
+.contact_checkbox:hover {
+    cursor: url('../public/img/pointer.png'), pointer;
+}
+
 .contact_checkbox_link:hover {
     cursor: url('../public/img/pointer.png'), pointer;
     color: rgb(108, 135, 156);
