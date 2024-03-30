@@ -15,7 +15,7 @@ export const projectItems1 = [
         id: 1,
         img: krugosvetka,
         link: 'https://qvaseel.github.io/krugosvetka74/',
-        title: "Многостаничный сайт для турфирмы. Разрботан в команде"
+        title: "Многостаничный сайт для турфирмы. Разработан в команде"
     },
     {
         id: 2,
