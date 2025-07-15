@@ -38,7 +38,7 @@
     font-size: 22px;
     padding-top: 6px;
     padding-left: 22px;
-    width: 100%;
+    width: 95%;
     height: 76px;
     border: 2px solid rgba(255, 255, 255, 0.15);
     border-radius: 4px;
@@ -158,7 +158,7 @@
 }
 
 .social_list {
-    width: 49%;
+    width: 48%;
 }
 
 .container_contacts_content {
@@ -181,7 +181,7 @@
 }
 
 .social_item_text {
-    font-size: 28px;
+    font-size: 22px;
 }
 
 .social_item_icon {
@@ -194,3 +194,134 @@
 .social_item_icon:hover {
     cursor: url('../public/img/pointer.png'), pointer;
 } 
+
+@media (max-width: 1030px) {
+    .container_contacts {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        max-width: 90%;
+    }
+
+    .container_contacts_content {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .social_list {
+        width: 100%;
+    }
+
+    .contact_form {
+        width: 100%;
+    }
+
+    .social_item_link {
+        justify-content: flex-start;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .social_item_text {
+        font-size: 20px;
+    }
+
+    .social_item_icon {
+        width: 50px;
+        height: 50px;
+        margin-right: 16px;
+    }
+
+    .contact_form_label_input {
+        font-size: 18px;
+        height: 60px;
+        padding-left: 16px;
+    }
+
+    .contact_form_label_input::placeholder {
+        font-size: 18px;
+    }
+
+    .contact_form_btn {
+        width: 100%;
+        height: 44px;
+        font-size: 18px;
+    }
+
+    .contact_checkbox_text {
+        font-size: 14px;
+    }
+
+    .contact_checkbox_input + .contact_checkbox_span::before {
+        width: 22px;
+        height: 22px;
+    }
+
+    .social_item_text {
+    font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container_contacts {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        max-width: 95%;
+    }
+
+    .container_contacts_content {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .social_list {
+        width: 100%;
+    }
+
+    .contact_form {
+        width: 100%;
+    }
+
+    .social_item_link {
+        justify-content: flex-start;
+        height: auto;
+        padding: 6px 0;
+    }
+
+    .social_item_text {
+        font-size: 14px;
+    }
+
+    .social_item_icon {
+        width: 35px;
+        height: 35px;
+        margin-right: 16px;
+    }
+
+    .contact_form_label_input {
+        font-size: 12px;
+        height: 40px;
+        padding-left: 10px;
+    }
+
+    .contact_form_label_input::placeholder {
+        font-size: 12px;
+    }
+
+    .contact_form_btn {
+        width: 100%;
+        height: 44px;
+        font-size: 18px;
+    }
+
+    .contact_checkbox_text {
+        font-size: 14px;
+    }
+
+    .contact_checkbox_input + .contact_checkbox_span::before {
+        width: 22px;
+        height: 22px;
+    }
+
+}

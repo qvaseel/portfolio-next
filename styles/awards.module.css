@@ -23,3 +23,29 @@
 .awards_item {
     margin-bottom: 50px;
 }
+
+@media (max-width: 440px) {
+    .awards_item {
+        width: 300px;
+        height: auto;
+    }
+
+    .container_awards {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 380px) {
+    .awards_item {
+        width: 270px;
+        height: auto;
+    }
+}
+
+@media (max-width: 350px) {
+    .awards_item {
+        width: 240px;
+        height: auto;
+    }
+}

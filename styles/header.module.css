@@ -67,3 +67,62 @@
     text-decoration: underline;
 	cursor: url('../public/img/pointer.png'), pointer;
 }
+
+@media (max-width: 524px) {
+  .header {
+    border-width: 2px;
+  }
+
+  .head {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .for_head {
+    padding: 4px 0;
+  }
+
+  .for_head p {
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 0;
+  }
+
+  .for_disk {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+    border-right: none;
+    border-bottom: 2px solid #000;
+  }
+
+  .cont_nav {
+    height: auto;
+  }
+
+  .nav {
+    margin-left: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .nav_list {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .nav_link {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .for_head p {
+    font-size: 18px;
+  }
+
+  .nav_link {
+    font-size: 18px;
+  }
+}

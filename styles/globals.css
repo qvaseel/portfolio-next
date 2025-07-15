@@ -218,3 +218,74 @@ body {
     transform: translate3d(77vw, 95vh, 0);
   }
 }
+
+@media (max-width: 768px) {
+  body {
+    padding: 2px;
+    width: 100%;
+    border: none;
+    margin-top: 0;
+  }
+
+  main {
+    border: none;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .background-animation {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  #ball-one,
+  #ball-two,
+  #ball-three {
+    height: 80px;
+    width: 80px;
+    filter: blur(50px);
+  }
+
+  #ball-one {
+    top: 10%;
+    left: 5%;
+  }
+
+  #ball-two {
+    top: 40%;
+    right: 5%;
+  }
+
+  #ball-three {
+    top: 70%;
+    left: 10%;
+  }
+}
+
+@media (max-width: 480px) {
+  #ball-one,
+  #ball-two,
+  #ball-three {
+    height: 60px;
+    width: 60px;
+    filter: blur(40px);
+  }
+
+  #ball-one {
+    top: 5%;
+    left: 5%;
+  }
+
+  #ball-two {
+    top: 35%;
+    right: 5%;
+  }
+
+  #ball-three {
+    top: 60%;
+    left: 10%;
+  }
+}
