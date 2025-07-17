@@ -12,7 +12,7 @@ export const socialList = [
     {
         img: telegramIcon,
         text: "@qvaseel",
-        link: "https://t.me/eblo0ff"
+        link: "https://t.me/qvaseel"
     },
     {
         img: githubIcon,
